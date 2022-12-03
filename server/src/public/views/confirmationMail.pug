@@ -1,0 +1,65 @@
+doctype html
+html(lang="en")
+  head
+    style.
+      .back {
+        background: #1e3a8a; 
+        width: 100%; 
+        height: 600px;
+        max-width: 500px;
+        z-index: -2;
+        border-radius: 20px; 
+        color: white;
+        }
+      p {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      tbody {
+        vertical-align: middle;
+      }
+      tr {
+        vertical-align: inherit;
+      }
+      td {
+        text-align: center;
+      }
+      .confirm {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: #f97316;
+      }
+      .link {
+        cursor: pointer;
+      }
+
+  title Mail
+  body
+    .back
+      table
+        tbody
+          tr
+            td
+              img(src='https://ik.imagekit.io/g39hqj8mc/chronos-logo_0ezK8Q8ha7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669411768594' style=({margin: '30px', width: '40%'}))
+          tr
+            td
+              h1 Hello #{name}
+          tr
+            td
+              h3 Thank you for joining Chronos
+          tr
+            td
+              p We'd like to confirm that your account was created successfully. 
+          tr
+            td
+              p To access Chronos click the link below
+          tr
+            td
+              a(href=`${link}`)
+                button.confirm.link Confirm Email
