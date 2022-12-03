@@ -8,7 +8,7 @@
 ### [🌐 Website](https://deleashers-chronos.netlify.app/)  |  [📹 Demo Video](https://www.youtube.com/channel/UCKSWaEwZTXnAFVB941HgG3A)
 
 ### API Hosted On
-- __[useof.herokuapp](https://useof.herokuapp.com/) (Primary)__
+- __[chronos-server.onrender](https://chronos-server.onrender.com/) (Primary)__
 
 This project is an event calendar. It can be used for creating, managing, and searching for events. Event calendars are a way to be informed about upcoming events and to keep people in the loop about meetings, conferences, seminars, etc.
 
