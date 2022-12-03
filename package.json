@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-install": "cd client && npm install",
     "server-install": "cd server && npm install",
-    "install-all-deps": "concurrently \"npm install\" \"npm run server-install\" \"npm run client-install\"",
+    "install-all-deps": "npm install && concurrently \"npm run server-install\" \"npm run client-install\"",
     "client": "cd client && npm start",
     "server": "cd server && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\""
