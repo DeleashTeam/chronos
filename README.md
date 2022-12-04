@@ -38,11 +38,9 @@ This repo consists of the front end and back end code of the project.
    cd chronos
    ```
 
-2. Setup the backend code -
-   
-   __NOTE:__ For Frontend Developers, if they dont want to setup the Backend Code, they can skip the Step 2, and make sure they follow the optional step mentioned in Step 4
+2. Setup the code -
 
-   - Create a `.env` file and the format should be as given in `.env.example`.
+   - Go to server folder and create a `.env` file. The format should be as given in `.env.example`.
    - Clone the code & install the modules-
 
      ```
@@ -65,11 +63,21 @@ This repo consists of the front end and back end code of the project.
 
 #### IMAGES
 
-<img src="https://ik.imagekit.io/g39hqj8mc/image_6SoeRJVLl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667160671457" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_1__mESiJ_86k.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667161162687" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_mjwGH0dbi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667161115210" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_cfwhUm7ln.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667161022530" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_1__zE-dJaHG-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667160895666" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_oxnj4qkvP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667160809821" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_7GMMza9rZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667160764071" width=340px />
-<img src="https://ik.imagekit.io/g39hqj8mc/image_2__f4HmbrPmf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667161188193" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_8__OJu1ESYr__.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444265" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_9__EeMkuZPvcN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444164" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_13__cn6UnFJ02.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445698" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_16__3PZuDcDNO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142556757" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_14__LkB6AhIgu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445646" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_15__QiU7z8fSc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445594" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_12__cNpk_IP-I.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445591" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_11__UsX9j4ehj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445536" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_10__hW_erWYrC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142445310" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_6__SBonzYHkn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444207" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_5__XMHNBwi4q.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444119" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_7__4MmlWCdyv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444040" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_4__nZhtlxGGJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444181" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_3__UewUZH2Dj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444063" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_zr4vNA8Bf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142443940" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_2__dQAruJqRY.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142444218" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_18__NY2540wkC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142944284" width=340px />
+<img src="https://ik.imagekit.io/g39hqj8mc/image_17__lwMTPLHxi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670142944244" width=340px />
