@@ -34,23 +34,23 @@ This repo consists of the front end and back end code of the project.
 1. Open your local CLI -
 
    ```
-   mkdir chronos
-   cd chronos
-   ```
-
-2. Setup the code -
-
-   - Go to server folder and create a `.env` file. The format should be as given in `.env.example`.
-   - Clone the code & install the modules-
-
-     ```
      git clone https://github.com/DeleashTeam/chronos.git
+     
      cd chronos
 
      npm run install-all-deps
-     ```
+   ```
 
-   - Run the index `npm run dev`.
+2. Setup .env
+
+   - Go to server folder and create a `.env` file. The format should be as given in `.env.example`.
+
+3. Start the client and server
+
+  - Run the index 
+  ```
+  npm run dev
+  ```
 
 ## Contributing
 
