@@ -5,7 +5,7 @@
 [![NODE](https://img.shields.io/static/v1?label=node&message=18.12.1&color=success)](https://shields.io/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://shields.io/)
 
-### [🌐 Website](https://deleashers-chronos.netlify.app/)  |  [📹 Demo Video](https://www.youtube.com/channel/UCKSWaEwZTXnAFVB941HgG3A)
+### [🌐 Website](https://deleashers-chronos.netlify.app/)  |  [📹 Demo Video](https://www.youtube.com/watch?v=qUWUdwBCEuE)
 
 ### API Hosted On
 - __[chronos-server.onrender](https://chronos-server.onrender.com/) (Primary)__
@@ -58,7 +58,7 @@ This repo consists of the front end and back end code of the project.
 
 ## DEMO
 
-#### VIDEO - [Watch the video]()
+#### VIDEO - [Watch the video](https://www.youtube.com/watch?v=qUWUdwBCEuE)
 
 
 #### IMAGES
