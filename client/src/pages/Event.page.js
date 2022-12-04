@@ -27,8 +27,8 @@ const Event = ({ event, removeEvent, authed }) => {
   const navigate = useNavigate();
   const [removeEventUser] = useRemoveEventUserMutation();
   return (
-    <div className="flex flex-col w-full gap-2">
-      <div className="flex justify-between text-white items-center mb-5 border-b-gray-500 border-b-2 justify-items-center">
+    <div className="flex flex-col h-full w-full gap-2">
+      <div className="flex justify-between text-white h-full items-center mb-5 border-b-gray-500 border-b-2 justify-items-center">
         <span className="text-3xl">{event.name}</span>
         <div className="flex flex-col gap-2 justify-center justify-items-center">
           <span style={{ color: event.color }}>{event.type}</span>
@@ -130,7 +130,7 @@ const EventPage = () => {
         {isLoading || !isSuccess || !event ? (
           <CardLoader />
         ) : (
-          <div className="flex gap-4 flex-col w-full m-5 p-10 rounded-xl lg:h-screen bg-gray-900 justify-items-center">
+          <div className="flex gap-4 flex-col w-full m-5 p-10 rounded-xl bg-gray-900 justify-items-center">
             <div className="flex justify-between justify-items-center items-center">
               <Button
                 onClick={() => {
@@ -159,14 +159,14 @@ const EventPage = () => {
               </div>
             </div>
             <div className={`lg:block ${showChat ? 'hidden' : ''}`}>
-              <div>
+              <div className='h-full'>
                 <Event authed={authed} removeEvent={onRemoveEvent} event={event} />
               </div>
             </div>
           </div>
         )}
       </div>
-      <div className="lg:flex hidden gap-4 flex-col w-1/2 h-screen m-5 p-10 rounded-xl bg-gray-900 justify-items-center">
+      <div className="lg:flex hidden gap-4 flex-col w-1/2 m-5 p-10 rounded-xl bg-gray-900 justify-items-center">
         <Chat messages={messages} eventId={event?._id} />
       </div>
     </div>

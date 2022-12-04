@@ -58,14 +58,14 @@ function ChatMessages({ messages, user }) {
   return (
     <div
       id="messages"
-      className="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
+      className="flex flex-col h-full space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
     >
       {messages.length ? (
         messages.map((message, index) => (
           <ChatMessage key={index} user={user} message={message} index={index} />
         ))
       ) : (
-        <div className="flex flex-col h-screen justify-center justify-items-center items-center font-bold text-gray-700 text-2xl text-center">
+        <div className="flex flex-col h-full justify-center justify-items-center items-center font-bold text-gray-700 text-2xl text-center">
           <RiEmotionUnhappyFill size={72} />
           <span>No messages there yet</span>
         </div>
